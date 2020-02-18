@@ -1,0 +1,551 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1290px;
+    }
+}
+
+.bg-light {
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    padding: 0;
+    background: #F9F9F9;
+}
+
+.header .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #DCDCDC;
+    border-top: none;
+    border-bottom: none;
+}
+
+.header .navbar-nav .nav-item {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    border-right: 1px solid #DCDCDC;
+    border-top: none;
+    border-bottom: none;
+}
+
+.header .navbar-nav .nav-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 45px;
+    font-family: 'Roboto', sans-serif !important;
+    color: #143D7F;
+    transition: 0.3s;
+}
+
+.header .navbar-nav .nav-item a:hover {
+    background: #143D7F;
+    color: #ffffff;
+}
+
+.header .navbar-nav .nav-item:nth-child(3) {
+    flex: 1;
+}
+
+.header .navbar-nav .nav-item.logo img {
+    width: 154px;
+    height: 46px;
+}
+
+.header .navbar-nav .nav-item.logo a:hover {
+    background: transparent;
+}
+
+.header .navbar-nav .nav-item:last-child {
+    border-right: none;
+}
+
+.header-section {
+    width: 100%;
+    position: relative;
+}
+
+.header-section .content {
+    padding: 140px 100px 350px 0;
+}
+
+.header-section .content h1 {
+    margin: 0 0 30px 0;
+    color: #143D7F;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 42px;
+}
+
+.header-section .content p {
+    margin: 0;
+    color: #707070;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px;
+}
+
+.header-section .header-section-image-container {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-section .header-section-image-container .header-section-image {
+    width: 535px;
+    height: 470px;
+}
+
+.header-section .bottom-image {
+    width: 240px;
+    height: 262px;
+    position: absolute;
+    left: -30px;
+    bottom: -50px;
+}
+
+.header-section .bottom-image svg {
+    width: 100%;
+    height: 100%;
+}
+
+.content-section {
+    width: 100%;
+    display: flex;
+}
+
+.content-section .content-section-image {
+    width: 50%;
+}
+
+.content-section .content-section-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-section .content-section-content {
+    width: calc(50% - 0px);
+    padding: 72px 120px;
+    background: #143D7F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-section .content-section-content h1 {
+    color: #fff;
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif !important;
+    margin-bottom: 50px;
+}
+
+.content-section .content-section-content p {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif !important;
+    margin-bottom: 50px;
+    padding-right: 80px;
+}
+
+.content-section .content-section-content .line {
+    height: 100px;
+    width: 2px;
+    background: #ffffff;
+    margin-bottom: 50px;
+}
+
+.content-section .content-section-content button {
+    background: transparent;
+    padding: 0;
+    border: none;
+}
+
+.content-section .content-section-content button a {
+    font-size: 16px;
+    background: #00ace4;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif !important;
+    padding: 12px 35px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: block;
+}
+
+.content-section .content-section-content .bottom-image {
+    position: absolute;
+    right: -42px;
+    bottom: -32px;
+}
+
+.content-section .content-section-content .bottom-image svg {
+    width: 240px;
+    height: 240px;
+}
+
+.content-section#passenger-section .content-section-content {
+    background-color: #00ace4;
+}
+
+.content-section#passenger-section .content-section-content button a {
+    background: #143D7F;
+}
+
+.content-section#passenger-section .content-section-content .bottom-image {
+    right: -65px;
+    bottom: -30px;
+}
+
+.sub-footer {
+    width: 100%;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.sub-footer h1 {
+    color: #143D7F;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif !important;
+    margin: 0 0 50px 0;
+}
+
+.sub-footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sub-footer ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sub-footer ul li a {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif !important;
+    color: #143D7F;
+}
+
+.sub-footer ul li:before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    display: block;
+    border-radius: 5px;
+    background: #143D7F;
+    margin-right: 15px;
+}
+
+.sub-footer ul li:last-child {
+    margin-bottom: 0;
+}
+
+.sub-footer .list .list-item {
+    margin-bottom: 15px;
+}
+
+.sub-footer .list .list-item img {
+    width: 160px;
+    height: 58px;
+    object-fit: contain;
+}
+
+.sub-footer .list .list-item:first-child {
+    margin-bottom: 35px;
+}
+
+.sub-footer .list .list-item:last-child {
+    margin-bottom: 0;
+}
+
+.sub-footer .bottom-image {
+    position: absolute;
+    right: -35px;
+    bottom: -25px;
+}
+
+.sub-footer .bottom-image svg {
+    width: 180px;
+    height: 180px;
+}
+
+@keyframes stroke_fill {
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: white;
+        stroke-dashoffset: 0;
+    }
+    100% {
+        fill: black;
+        stroke-dashoffset: 0;
+    }
+}
+
+.animation {
+    animation: stroke_fill 4s ease forwards;
+    stroke-dasharray: 324.774;
+    stroke-dashoffset: 324.774;
+    strokeWidth: 10;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    background: #143D7F;
+}
+
+.footer p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif !important;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .responsive .header {
+        padding: 15px;
+    }
+    .responsive .header .navbar-brand {
+        padding: 0;
+    }
+    .responsive .header .navbar-brand img {
+        width: 102px;
+        height: 32px;
+    }
+    .responsive .header .logo {
+        display: none;
+    }
+    .responsive .header .navbar-toggler {
+        border: none;
+        box-shadow: none !important;
+        outline: none;
+    }
+    .responsive .header .navbar-nav {
+        border: none;
+        padding-top: 15px;
+    }
+    .responsive .header .navbar-nav .nav-item {
+        border: none;
+    }
+    .responsive .header .navbar-nav .nav-item a {
+        padding: 10px 15px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .responsive .header-section .content {
+        padding: 50px 0;
+        text-align: center;
+    }
+    .responsive .header-section .content h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .responsive .header-section .content p {
+        font-size: 12px;
+    }
+    .responsive .header-section .header-section-image-container .header-section-image {
+        min-width: 287px;
+        height: auto;
+        display: block;
+        margin: 0 auto 50px;
+    }
+    .responsive .header-section .bottom-image {
+        display: none;
+    }
+    .responsive .content-section {
+        flex-direction: column;
+    }
+    .responsive .content-section .content-section-image {
+        width: 100%;
+    }
+    .responsive .content-section .content-section-image img {
+        min-width: 250px;
+        max-height: 350px;
+        object-fit: cover;
+    }
+    .responsive .content-section .content-section-content {
+        padding: 50px 15px;
+        width: 100%;
+    }
+    .responsive .content-section .content-section-content h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .responsive .content-section .content-section-content p {
+        font-size: 14px;
+        margin-bottom: 15px;
+        padding-right: 0;
+        text-align: center;
+    }
+    .responsive .content-section .content-section-content .line {
+        display: none;
+    }
+    .responsive .content-section .content-section-content button {
+        display: block;
+        margin: 0 auto;
+    }
+    .responsive .content-section .content-section-content button a {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    .responsive .content-section#passenger-section {
+        flex-direction: column-reverse;
+    }
+    .responsive .sub-footer {
+        padding: 50px 0;
+    }
+    .responsive .sub-footer h1 {
+        font-size: 28px;
+        margin: 0 0 15px 0;
+        text-align: center;
+    }
+    .responsive .sub-footer ul {
+        margin-bottom: 25px;
+    }
+    .responsive .sub-footer ul li {
+        justify-content: center;
+    }
+    .responsive .sub-footer ul li a {
+        font-size: 14px;
+    }
+    .responsive .sub-footer ul li:before {
+        display: none;
+    }
+    .responsive .sub-footer .list .list-item {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .responsive .sub-footer .list .list-item:first-child {
+        margin-bottom: 15px;
+    }
+    .responsive .footer {
+        padding: 10px 0;
+    }
+    .responsive .footer p {
+        font-size: 12px;
+    }
+    .responsive .bottom-image {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .responsive .header {
+        padding: 15px;
+    }
+    .responsive .header .navbar-brand {
+        padding: 0;
+    }
+    .responsive .header .navbar-brand img {
+        width: 142px;
+        height: 42px;
+    }
+    .responsive .header .navbar-toggler {
+        border: none;
+        box-shadow: none !important;
+        outline: none;
+    }
+    .responsive .header .navbar-nav {
+        border: none;
+        padding-top: 15px;
+    }
+    .responsive .header .navbar-nav .nav-item {
+        border: none;
+    }
+    .responsive .header .navbar-nav .nav-item a {
+        padding: 10px 15px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .responsive .header .logo {
+        display: none;
+    }
+    .responsive .header .navbar-nav {
+        padding-top: 15px;
+    }
+    .responsive .header-section .content {
+        padding: 80px 0;
+    }
+    .responsive .header-section .bottom-image {
+        display: none;
+    }
+    .responsive .header-section .header-section-image-container .header-section-image {
+        width: 495px;
+        height: 440px;
+        display: block;
+        margin: 0 auto 80px;
+    }
+    .responsive .content-section .content-section-content {
+        padding: 50px;
+    }
+    .responsive .content-section .content-section-content h1 {
+        margin-bottom: 25px;
+    }
+    .responsive .content-section .content-section-content p {
+        margin-bottom: 25px;
+        padding-right: 0;
+    }
+    .responsive .content-section .content-section-content .line {
+        height: 50px;
+        margin-bottom: 25px;
+    }
+    .responsive .sub-footer {
+        padding: 80px 0;
+    }
+    .responsive .sub-footer h1 {
+        font-size: 28px;
+        margin: 0 0 30px 0;
+    }
+    .responsive .bottom-image {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .responsive .header .navbar-nav .nav-item a {
+        padding: 22px 30px;
+        font-size: 14px;
+    }
+    .responsive .content-section .content-section-content {
+        padding: 35px 50px;
+    }
+    .responsive .content-section .content-section-content h1 {
+        margin-bottom: 30px;
+    }
+    .responsive .content-section .content-section-content p {
+        font-size: 16px;
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+    .responsive .content-section .content-section-content .line {
+        height: 60px;
+        margin-bottom: 30px;
+    }
+    .responsive .content-section .content-section-content button a {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .responsive .bottom-image {
+        display: none;
+    }
+    .responsive .sub-footer {
+        padding: 50px 0;
+    }
+    .responsive .sub-footer h1 {
+        font-size: 26px;
+        margin: 0 0 30px 0;
+    }
+}
